@@ -14,7 +14,7 @@ npx react-native bundle\
                                                         // ./android/app/src/main/res/
                     --bundle-output ~/Desktop/main.jsbundle\ // 需要手动复制到相应目录.
                                                              // ./ios/main.jsbundle
-                                                             // ./android/app/src/main/assets/index.android.jsbundle
+                                                             // ./android/app/src/main/assets/index.android.bundle
                     --platform ios // ios android
 ```
 
@@ -38,7 +38,7 @@ npx react-native bundle\
 
 ## React Native iOS
 
-1. 把离线包 main.bundle 放到项目中
+1. 把离线包 main.bundle, assets 放到项目中 (注意：在项目中需要引用 main.bundle 文件，assets 文件夹)
 
 2. 改
 
